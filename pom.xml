@@ -28,7 +28,7 @@
 
     <properties>
         <version.apache.httpclient>4.5.2</version.apache.httpclient>
-        <version.docker.java>3.0.6</version.docker.java>
+        <version.docker.java>20994a0f0d4bac8dd205992869b7d29609a61d8b</version.docker.java>
         <version.jenkins.docker-commons>1.4.0</version.jenkins.docker-commons>
         <version.glassfish.javax.json>1.0.4</version.glassfish.javax.json>
         <version.jenkins.credentials>1.22</version.jenkins.credentials>
@@ -43,7 +43,7 @@
             <version>${version.apache.httpclient}</version>
         </dependency>
         <dependency>
-            <groupId>com.github.docker-java</groupId>
+            <groupId>com.github.Weightpoint</groupId>
             <artifactId>docker-java</artifactId>
             <version>${version.docker.java}</version>
         </dependency>
@@ -76,6 +76,10 @@
             <id>repo.jenkins-ci.org</id>
             <url>http://repo.jenkins-ci.org/public/</url>
         </repository>
+        <repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
     </repositories>
 
     <pluginRepositories>
